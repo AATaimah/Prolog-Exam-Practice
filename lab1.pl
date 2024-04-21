@@ -53,5 +53,7 @@ Write the queries that find
 % Queries
 % 1 - book(X,_,'MIT Press',_,_).
 % 2 - book(Title,_,_,Year,_) , Year > 2000.
-% 3 - book(_,Author,_,_,_) , Author = 'Jacques Brun'.
+% 3 - reader(CardNumber, 'Jacques Brun') , checkedOut(CardNumber , CallNumber), book(Title,_,_,_,CallNumber).
+
+
 
